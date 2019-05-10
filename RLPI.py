@@ -59,7 +59,7 @@ def query_printer(computer):
 def file_copy(computer):
     result = query_printer(computer)
     printer = str.strip(str(result))
-    src_path = "\\\\COFMSFSPD01\\Public\\5thfloor\\FssPrintToolDrivers\\FSSPrinterTool\\lexmarkuniversal\\x64"
+    src_path = "\\\\Server01\\Publicr\\PrintToolDrivers\\PrinterTool\\lexmarkuniversal\\x64"
     dst_path = "\\\\" + computer + "\\c$\\rlprinttool\\install.bat"
     path = "\\\\" + computer + "\\c$\\rlprinttool"
     print_drvr = "cscript //Nologo %__AppDir__%Printing_Admin_Scripts\\en-US\\prndrvr.vbs "
