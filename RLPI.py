@@ -2,16 +2,6 @@
 # 
 #   Author: Virgil Hoover
 #   License found in './License.txt'
-
-#  /usr/bin/python3.7
-#
-#   Author: Virgil Hoover
-#   License found in './GNU License.txt'
-
-#  /usr/bin/python3.7
-#
-#   Author: Virgil Hoover
-#   License found in './GNU License.txt'
 # TODO: Add GUI to moderize and hide userpass
 
 import pyodbc
