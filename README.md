@@ -1,7 +1,7 @@
 # RLPI
 
-RLPI is a batch program for finishing setup of rounding laptops  
-This program will install the local clinic Lexmark printer onto the computer,  
+RLPI is a program for finishing setup of laptops  
+This program will install the local Lexmark printer onto the computer,  
 wipe-out the last logged in user, and set the timezone for where the laptop is destined for.
 
 ## Requirements
@@ -19,7 +19,7 @@ This tool requires the following:
 
 ## Support
 
-For technical support regarding this program send emails to Virgil.Hoover@fmc-na.com
+For technical support regarding this program send emails to VirgilHoover@gmail.com
 
 ## Roadmap
 
