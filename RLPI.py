@@ -34,6 +34,10 @@ def query_printer(computer):
         clinic = host[0:6]
     elif host.find('-', 0, 7) == 5:
         clinic = host[0:4]
+    if len(clinic) > 6:
+        print "Error, Invalid ID"
+        return None None
+        exit()
     what = "SELECT CONCAT(Clinic.Clinic_Subnet,'.',Printer_IP) AS Printer_IP "
     where = "FROM Clinic_Printers INNER JOIN Clinic ON Clinic.Clinic_ID=Clinic_Printers.Clinic_ID "
     condition = "WHERE Clinic.Clinic_ID = " + clinic + "AND Printer_Model = 'MX711';"
